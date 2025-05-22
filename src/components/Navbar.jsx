@@ -25,8 +25,7 @@ const Navbar = () => {
       <div className="text-xl font-bold">My Task</div>
 
       <ul className="flex gap-6 items-center">
-        <li className="cursor-pointer hover:font-bold">Home</li>
-        <li className="cursor-pointer hover:font-bold">Your Tasks</li>
+        
 
         {user && (
           <button
